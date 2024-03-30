@@ -4,7 +4,7 @@
 }
 
 .container{
-    background-color: #006699;
+    background-color: red;
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -15,10 +15,10 @@
   .titulo {
     position: absolute;
     min-width: 100%;
-    -webkit-animation: moveX 4s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-    -moz-animation: moveX 4s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-    -o-animation: moveX 4s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-    animation: moveX 4s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    -webkit-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    -moz-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    -o-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
   }
 
   .welcome{
